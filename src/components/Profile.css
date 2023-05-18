@@ -1,0 +1,89 @@
+.profile {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #f6d365, #fda085);
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.username {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.follow-btn {
+  padding: 10px 20px;
+  background-color: #3897f0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.unfollow-btn {
+  padding: 10px 20px;
+  background-color: #ccc;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.stats-item {
+  text-align: center;
+}
+
+.count {
+  font-size: 16px;
+  color: #333;
+}
+
+.count-number {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.profile-bio {
+  margin-bottom: 20px;
+}
+
+.profile-bio h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.posts p {
+  text-align: center;
+}
